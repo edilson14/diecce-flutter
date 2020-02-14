@@ -10,6 +10,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.red,
         appBar: AppBar(
           title: Text('Jogo de dados'),
+          centerTitle: true,
           backgroundColor: Colors.red,
         ),
         body: DicePage(),
