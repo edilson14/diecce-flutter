@@ -7,11 +7,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.black,
         appBar: AppBar(
-          title: Text('Jogo de dados'),
+          title: Text('Dados'),
           centerTitle: true,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.black,
         ),
         body: DicePage(),
       ),
